@@ -3,6 +3,16 @@
 
 Implementations of Gromov–Wasserstein (GW) solvers with a shared experiment pipeline for comparing alignment methods. Experiments support **toy** distributions in 2D and 3D and **embedding** alignment (e.g., Twitter-GloVe, 100 → 50 dimensions).
 
+## Embedding preprocessing
+
+Use `preprocess_embeddings.py` to generate embeddings by specifying the dataset, embedding type, and dimension (and `--vocab-size` for BPEmb). For example:
+
+```bash
+python preprocess_embeddings.py --dataset twitter --embedding glove --dim 100
+```
+
+Supported embeddings are Twitter-GloVe (25/50/100D), MUSE-BPEmb (50/100D), and VoxCeleb2-WNTA (64/128D).
+
 ## Discrete GW experiments
 
 The discrete pipeline includes **AlignGW**, **StructuredGW**, and **FlowGW**. Although these solvers fit GW on finite samples, the pipeline also supports **out-of-sample inference**, allowing predictions for unseen data.
