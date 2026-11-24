@@ -6,9 +6,10 @@
 [Xavier Aramayo](https://scholar.google.com/citations?user=1B9UIYoAAAAJ), [Maksim Nekrashevich](https://scholar.google.com/citations?user=bhHV5dQAAAAJ), [Petr Mokrov](https://scholar.google.cat/citations?user=CRsi4IkAAAAJ), 
 [Evgeny Burnaev](https://scholar.google.com/citations?user=pCRdcOwAAAAJ), [Alexander Korotin](https://scholar.google.ru/citations?user=1rIIvjAAAAAJ)
 
-</div>
 
 [![arXiv Paper](https://img.shields.io/badge/arXiv-2502.01416-b31b1b)](https://arxiv.org/abs/2303.05978) [![OpenReview Paper](https://img.shields.io/badge/OpenReview-PDF-8c1b13)](https://openreview.net/forum?id=GVX9tTLcIs) ![GitHub License](https://img.shields.io/github/license/gregkseno/csbm) [![GitHub](https://img.shields.io/github/stars/gregkseno/catsbench?style=social)](https://github.com/Ark-130994/GWBench) [![Hugging Face Datasets](https://img.shields.io/badge/🤗%20Hugging%20Face-view-green)](https://huggingface.co/datasets/XavierArCa/GWBench/tree/main)
+
+</div>
 
 This repository contains the official implementation of the paper "Uncovering Challenges of Solving the Continuous Gromov-Wasserstein Problem", accepted at NeurIPS 2026.
 
