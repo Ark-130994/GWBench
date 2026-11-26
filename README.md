@@ -9,7 +9,7 @@
 
 [![arXiv Paper](https://img.shields.io/badge/arXiv-2502.01416-b31b1b)](https://arxiv.org/abs/2303.05978) [![OpenReview Paper](https://img.shields.io/badge/OpenReview-PDF-8c1b13)](https://openreview.net/forum?id=GVX9tTLcIs) ![GitHub License](https://img.shields.io/github/license/gregkseno/csbm) 
 [![GitHub Stars](https://img.shields.io/github/stars/Ark-130994/GWBench?style=social)](https://github.com/Ark-130994/GWBench/stargazers)
- [![Hugging Face Datasets](https://img.shields.io/badge/🤗%20Hugging%20Face-view-green)](https://huggingface.co/datasets/XavierArCa/GWBench/tree/main)
+ [![Hugging Face Datasets](https://img.shields.io/badge/🤗%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/XavierArCa/GWBench/tree/main)
 
 </div>
 
