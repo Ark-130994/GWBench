@@ -94,21 +94,20 @@ python scripts/run_neural_innergw.py --config=configs/neural_innergw/embeddings/
 
 Each experiment creates a directory under `results/`, organized by experiment type, solver, dataset, statistical relatedness level, and random seed. The resulting directory structure is illustrated below:
 
-```text
-results/
-└── embedding/
-    └── continuous/
-        └── CycleGW/
-            └── twitter_glove_100_50/
-                └── alpha_1.0_seed_1/
-                    ├── 000/                       # Numbered experiment run
-                    │   ├── ckpts/                 # Model checkpoints
-                    │   ├── plots/                 # Generated plots
-                    │   ├── config.yaml            # Experiment configuration
-                    │   ├── losses.csv             # Training losses
-                    │   └── metrics_train_direct.csv # Training metrics
-                    └── 001/
-                        └── ...
+```bash
+embedding/
+└── continuous/
+    └── CycleGW/
+        └── twitter_glove_100_50/
+            └── alpha_1.0_seed_1/
+                ├── 000/                           # Numbered experiment run
+                │   ├── ckpts/                     # Model checkpoints
+                │   ├── plots/                     # Generated plots
+                │   ├── config.yaml                # Experiment configuration
+                │   ├── losses.csv                 # Training losses
+                │   └── metrics_train_direct.csv   # Training metrics
+                └── 001/
+                    └── ...
 ```
 
 In general, results follow the directory structure:
@@ -123,14 +122,14 @@ This organization facilitates reproducibility and comparison across methods, dat
 
 If find the paper or the code useuful, you can use the citation below
 
-```
+```bibtex
 @inproceedings{
-carrasco2026uncovering,
-title={Uncovering Challenges of Solving the Continuous Gromov-Wasserstein Problem},
-author={Xavier Aramayo Carrasco and Maksim Nekrashevich and Petr Mokrov and Evgeny Burnaev and Alexander Korotin},
-booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
-year={2026},
-url={https://openreview.net/forum?id=GVX9tTLcIs}
+  carrasco2026uncovering,
+  title={Uncovering Challenges of Solving the Continuous Gromov-Wasserstein Problem},
+  author={Xavier Aramayo Carrasco and Maksim Nekrashevich and Petr Mokrov and Evgeny Burnaev and Alexander Korotin},
+  booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
+  year={2026},
+  url={https://openreview.net/forum?id=GVX9tTLcIs}
 }
 ```
 
